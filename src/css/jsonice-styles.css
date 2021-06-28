@@ -1,0 +1,104 @@
+/*! pretty-print-json v1.0.1 ~ github.com/center-key/pretty-print-json ~ MIT License */
+html {
+    height: 100%;
+}
+
+html.dark-mode {
+    background: #202124;
+}
+
+html.light-mode {
+    background: whitesmoke;
+}
+
+pre {
+    line-height: 18px;
+}
+
+.jsonice-error {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    background: whitesmoke;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+.dark-mode .jsonice-error {
+    background-color: whitesmoke;
+}
+
+.light-mode .jsonice-error {
+    background-color: #202124;
+    color: whitesmoke;
+}
+
+.light-mode .json-key {
+    color: brown;
+}
+.light-mode .json-string {
+    color: olive;
+}
+.light-mode .json-number {
+    color: navy;
+}
+.light-mode .json-boolean {
+    color: teal;
+}
+.light-mode .json-null {
+    color: dimgray;
+}
+.light-mode .json-mark {
+    color: black;
+}
+.light-mode a.json-link {
+    color: purple
+     transition: all 400ms;
+}
+.light-mode a.json-link:visited {
+    color: slategray;
+}
+.light-mode a.json-link:hover {
+    color: blueviolet;
+}
+.light-mode a.json-link:active {
+    color: slategray;
+}
+
+.dark-mode .json-key {
+    color: darksalmon;
+}
+.dark-mode .json-string {
+    color: darkgrey;
+}
+.dark-mode .json-number {
+    color: deepskyblue;
+}
+.dark-mode .json-boolean {
+    color: mediumseagreen;
+}
+.dark-mode .json-null {
+    color: darkorange;
+}
+.dark-mode .json-mark {
+    color: silver;
+}
+.dark-mode a.json-link {
+    color: deepskyblue;
+    text-decoration: none;
+}
+.dark-mode a.json-link:visited {
+    color: slategray;
+}
+.dark-mode a.json-link:hover   {
+    color: violet;
+}
+.dark-mode a.json-link:active  {
+    color: silver;
+}
