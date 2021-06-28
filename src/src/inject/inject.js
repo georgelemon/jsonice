@@ -1,3 +1,13 @@
+/**
+ * Pretty print JSON Snippet from dpilafian.
+ *
+ * All links are set with target="_blank".
+ * 
+ * @see https://github.com/center-key/pretty-print-json
+ * @author dpilafian
+ * 
+ * @type {Object}
+ */
 const beautify = {
     version: '1.0.1',
     toHtml(thing, options) {
