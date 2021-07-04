@@ -1,12 +1,13 @@
 /**
- * Pretty print JSON Snippet from dpilafian.
- *
- * All links are set with target="_blank".
+ * JSONice | Browser extension 🍋 Lemonify JSON responses
+ * while working on REST APIs. Auto Dark & Light mode included.
+ * Works in Chrome, Brave and Chromium
  * 
- * @see https://github.com/center-key/pretty-print-json
+ * JSONice contains some work from @dpilafian.
+ * 
+ * @author George Lemon <georgelemon@protonmail.com
  * @author dpilafian
- * 
- * @type {Object}
+ * @license GPLv3
  */
 const beautify = {
     version: '1.0.1',
@@ -86,6 +87,4 @@ chrome.extension.sendMessage({}, function(resp) {
             warning.textContent = error
         document.body.appendChild(warning)
     }
-
-    // console.log(JSON.stringify(resp));
 });
